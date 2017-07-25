@@ -182,17 +182,78 @@ section h2{
 	background-color:;
 }
 
-section div{
+#about div{
 	display: inline-block;
 	width: 30%;
 	vertical-align: top;
 	margin: 25px 10px 10px auto;
 	padding: 0 10px;
 }
-section .middle {
+#about .middle {
 	border-left: 1px solid rgb(183, 217, 249);
 	border-right: 1px solid rgb(183, 217, 249);
 }
+
+/* GAME STUDIO*/
+#studio img {
+	width: 100%;
+}
+#studio div {
+	margin: 5px;
+}
+#studio div div{
+	display: inline-block;
+	vertical-align: top;
+	margin: 25px auto 10px auto;
+	padding: 0 2%;
+	width: 48%;
+}
+/*Studio About*/
+
+#studio .about .foto {
+	border-left: 1px solid rgb(183, 217, 249);
+}
+#studio .about .tekst {
+}
+
+/*Studio games*/
+
+#studio .games .foto{
+	
+}
+#studio .games .tekst{
+	border-left: 1px solid rgb(183, 217, 249);
+}
+#studio .games img {
+		width: 30%;
+		max-height: 30%;
+}
+
+/*STREAM */
+
+#stream div {
+	display: inline-block;
+	vertical-align: top;
+	margin: 25px auto 10px auto;
+	padding: 0 2%;
+	width: 48%;
+
+}
+#stream .right-side {
+	border-left: 1px solid rgb(183, 217, 249);
+}
+#stream ul {
+	text-align: left;
+	margin-left: 20%;
+}
+
+
+
+
+
+
+
+
 
 
 
