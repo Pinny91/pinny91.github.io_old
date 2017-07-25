@@ -1,0 +1,39 @@
+#quote-button-title {
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 1.0em;
+}
+
+#quote-machine {
+	max-width: 500px;
+}
+
+#quote-machine button:active {
+		border: none;
+}
+
+#quote {
+	font-style: italic;
+	font-weight: 600;
+	text-align: center;
+}
+#author {
+	text-align: right;
+}
+
+@media all and (min-width: 000px)   {  
+	#quote-button-title  { font-size:0.30em;  } 
+}
+
+@media all and (min-width: 250px)   {  
+	#quote-button-title  { font-size:0.50em;  } 
+}
+@media all and (min-width: 300px)   {  
+	#quote-button-title  { font-size:0.65em;  } 
+}
+@media all and (min-width: 400px)  {  
+	#quote-button-title  { font-size:1.1em;  } 
+}
+@media all and (min-width: 700px)  {  
+	#quote-button-title  { font-size:2em;  } 
+}
