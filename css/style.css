@@ -162,7 +162,7 @@ section h2{
 	background-color: black;
 	background-image: url(background.jpg);
 	/*background-image: -webkit-linear-gradient(bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.5)), url(background.jpg);
-	*/background-size: 960px;
+	*/background-size: 1920px;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-position: center top; 
@@ -265,7 +265,7 @@ section h2{
 	background-color: black;
 	background-image: url(background.jpg);
 	background-image: -webkit-linear-gradient(bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.5)), url(background.jpg);
-	background-size: 960px;
+	background-size: 1920px;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-position: center bottom; 
