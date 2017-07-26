@@ -8,9 +8,18 @@ h1, h2, h3 {
 	margin: 0;
 }
 a, a:link, a:visited, a:hover, a:active{
-	text-decoration: none !important;
+	text-decoration: none;
 	color: inherit; 
-	}
+}
+
+p a {
+	font-weight: bold;
+	font-style: italic;
+}
+
+p a:hover {
+	color: #43627f;
+}
 
 	/*NAVIGATION BAR*/
 #menu-button {
@@ -133,6 +142,7 @@ section {
 	min-height: 100px;
 	/*border-bottom: 1px solid rgba(123, 123, 123, 0.7);*/
 	box-shadow: 0 2px 2px -2px gray;
+	padding-top: 20px;
 }
 
 section h1{
@@ -152,7 +162,7 @@ section h2{
 	background-color: black;
 	background-image: url(background.jpg);
 	/*background-image: -webkit-linear-gradient(bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.5)), url(background.jpg);
-	*/background-size: 1920px;
+	*/background-size: 960px;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-position: center top; 
@@ -162,26 +172,22 @@ section h2{
 	height: auto;
 	
 }
-
 #home h1{
 	display: block;
 	padding: 40px 10px 5px 10px;
 	letter-spacing: 0.1em;
 	text-transform: uppercase;
 }
-
 #home h2{
 	text-transform: uppercase;
 	font-size: 1.5em; 
 }
 
-/* ABOUT*/
+/* ABOUT */
 #about {
 	top:0;
 	color: #17232f;
-	background-color:;
 }
-
 #about div{
 	display: inline-block;
 	width: 30%;
@@ -194,30 +200,27 @@ section h2{
 	border-right: 1px solid rgb(183, 217, 249);
 }
 
-/* GAME STUDIO*/
+/* GAME STUDIO */
 #studio img {
 	width: 100%;
 }
 #studio div {
 	margin: 5px;
 }
-#studio div div{
+#studio div div {
 	display: inline-block;
 	vertical-align: top;
 	margin: 25px auto 10px auto;
 	padding: 0 2%;
 	width: 48%;
 }
-/*Studio About*/
-
+/*Studio About */
 #studio .about .foto {
 	border-left: 1px solid rgb(183, 217, 249);
 }
 #studio .about .tekst {
 }
-
-/*Studio games*/
-
+/*Studio games */
 #studio .games .foto{
 	
 }
@@ -229,15 +232,13 @@ section h2{
 		max-height: 30%;
 }
 
-/*STREAM */
-
+/* STREAM */
 #stream div {
 	display: inline-block;
 	vertical-align: top;
 	margin: 25px auto 10px auto;
 	padding: 0 2%;
 	width: 48%;
-
 }
 #stream .right-side {
 	border-left: 1px solid rgb(183, 217, 249);
@@ -264,7 +265,7 @@ section h2{
 	background-color: black;
 	background-image: url(background.jpg);
 	background-image: -webkit-linear-gradient(bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.5)), url(background.jpg);
-	background-size: 1920px;
+	background-size: 960px;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-position: center bottom; 
@@ -303,7 +304,80 @@ section h2{
 
 
 
+/*GSM*/
+@media only screen and (min-resolution: 117dpi) and (max-resolution: 119dpi), only screen and (min-resolution: 131dpi) and (max-resolution: 133dpi), only screen and (min-resolution: 145dpi) and (max-resolution: 154dpi), only screen and (min-resolution: 162dpi) and (max-resolution: 164dpi), only screen and (min-resolution: 169dpi) {
+  /* Your touch-specific css goes here */
+/*GSM MENU*/
+	nav h1 {
+		letter-spacing: 0.1em;
+		line-height: 0.5em;
+		height: 40px;
+	}
+	nav ul.active {
+		top: 40px;
+	}
+	#menu-button {
+		padding: 0px 2px 0 3px;
+	}
+	nav a {
+		height: 40px;
+		font-size: 1em;
+	}
+	nav a i {
+		padding: 0;
+	}
+	#menu-button i {
+		width: 66px;
+		padding: 10px 0 10px 0;
+	}
 
+/*GSM ABOUT*/
+	#about div {
+		width: 80%;
+		margin: 5px auto 5px auto;
+		padding: 10px 10px;	  
+	} 
+	#about .middle {
+		border: none;
+		border-top: 1px solid rgb(183, 217, 249);
+		border-bottom: 1px solid rgb(183, 217, 249);
+	}
+  
+  
+/*GSM FOOLSSTUDIOS*/ 
+	#studio div div {
+		width: 80%;
+		margin: 10px auto 0px auto;
+	}
+	#studio .games .tekst{
+		border: none;
+		border-bottom: 1px solid rgb(183, 217, 249);
+	}
+	#studio .about .foto {
+		border: none;
+		border-bottom: 1px solid rgb(183, 217, 249);
+	} 
+  
+/*GSM STREAM*/
+	#stream div {
+		margin: 10px auto 0px auto;
+		width: 80%;
+	}  
+	#stream .right-side {
+		border: none;
+	}
+	#stream ul {
+		border-left: 1px solid rgb(183, 217, 249);
+		margin-left: 10%;
+		padding-left: 10%;
+	}  
+
+/*GSM Background*/
+	#social, #home {
+		background-size: 960px;
+	}	
+  
+  }
 
 
 
